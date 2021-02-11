@@ -82,8 +82,6 @@ understanding of systems and how they work.
 
 ------------------------------------------------------------------------
 
-<table>
-<tbody>
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Computer Security Researcher, Independent</strong></p>
 <ul>
@@ -110,8 +108,7 @@ understanding of systems and how they work.
 <li><p><strong>Software Engineer:</strong></p>
 <ul>
 <li><p>Built a set of benchmarks and tests to describe automating porting data sets to NoSQL.</p></li>
-</ul></li>
-</td>
+</ul>
+</li>
 </tr>
-</tbody>
-</table>
+</td>
