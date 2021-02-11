@@ -105,8 +105,6 @@ understanding of systems and how they work.
 </ul>
 <p><strong>Software Engineer, Innovile Telecommunications, Izmir.</strong></p>
 <ul>
-<li><p><strong>Software Engineer:</strong></p>
-<ul>
 <li><p>Built a set of benchmarks and tests to describe automating porting data sets to NoSQL.</p></li>
 </ul>
 </li>
