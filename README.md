@@ -108,5 +108,3 @@ understanding of systems and how they work.
 <li><p>Built a set of benchmarks and tests to describe automating porting data sets to NoSQL.</p></li>
 </ul>
 </li>
-</tr>
-</td>
