@@ -90,7 +90,20 @@ understanding of systems and how they work.
 <li><p><strong>Independent Security Researcher:</strong></p>
 <ul>
 <li><p>Joined <a href="https://www.hackerone.com/">hackerone</a> as a security researcher with interest in mobile security.</p></li>
-</ul></li>
+</ul>
+<li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework as a Visual Studio Code extension.</strong></p></li>
+<ul>
+<li><p><a href="https://github.com/kaftejiman/jamal">Jamal</a>.</p></li>
+</ul>
+<li><p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p></li>
+<ul>
+<li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
+</ul>
+<li><p><strong>A convenient tiny utility that displays remaining time from a certain CTF session.</strong></p></li>
+<ul>
+<li><p><a href="https://github.com/kaftejiman/ctf-timer">CTF Timer</a>.</p></li>
+</ul>
+</li>
 </ul>
 <p><strong>Software Engineer, Innovile Telecommunications, Izmir.</strong></p>
 <ul>
@@ -98,34 +111,7 @@ understanding of systems and how they work.
 <ul>
 <li><p>Built a set of benchmarks and tests to describe automating porting data sets to NoSQL.</p></li>
 </ul></li>
-</ul></td>
-<td style="text-align: right;"></td>
-</tr>
-</tbody>
-</table>
-
-# <span style="color: teal">OpenSource Contributions:</span>
-
-------------------------------------------------------------------------
-
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<p><strong>Jamal Fast and Efficient Mobile Analysis Framework as a Visual Studio Code extension.</strong></p>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/jamal">Jamal</a>.</p></li>
-</ul>
-<p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
-</ul>
-<p><strong>A convenient tiny utility that displays remaining time from a certain CTF session.</span></strong></p>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/ctf-timer">CTF Timer</a>.</p></li>
-</ul>
 </td>
-<td style="text-align: right;"></td>
 </tr>
 </tbody>
 </table>
