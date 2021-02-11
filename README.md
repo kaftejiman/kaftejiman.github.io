@@ -16,7 +16,7 @@
 
 |                   |                                 |               |
 |:-----------------:|:--------------------------------|---------------|
-| <img src="assets/github.png" height="25px" width="25px">  | <https://github.com/kaftejiman> |  |
+| <img src="assets/github.png" height="25px" width="25px">  | <https://twitter.com/kaftejiman> |  |
 |  <img src="assets/pasted9.png" height="25px" width="25px"> | Hatay, Izmir, Turkey.           |  |
 |  <img src="assets/pasted8.png" height="25px" width="25px"> | kaftejiman protonmail .ch       |  |
 |  <img src="assets/pasted6.png" height="25px" width="25px"> | +90 0 - - - -                   |  |
