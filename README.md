@@ -85,25 +85,23 @@ understanding of systems and how they work.
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Computer Security Researcher, Independent</strong></p>
 <ul>
-<li><p><strong>Independent Security Researcher:</strong></p>
+    <li><p><strong>Independent Security Researcher:</strong></p></li>
+    <ul>
+        <li><p>Joined <a href="https://app.intigriti.com/profile/kaftejiman">Intigriti bug bounty platform</a> as a security researcher with interest in mobile security.</p></li>
+    </ul>
+    <li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework.</strong></p></li>
+    <ul>
+        <li><p><a href="https://github.com/kaftejiman/jamal">Jamal</a>.</p></li>
+    </ul>
+    <li><p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p></li>
+    <ul>
+        <li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
+    </ul>
+</ul>
+<tr class="odd">
+<td style="text-align: left;"><p><strong>Software Engineer, <a href="https://www.innovile.com/">Innovile Telecommunications, Izmir.</a></strong></p>
 <ul>
-<li><p>Joined <a href="https://www.hackerone.com/">hackerone</a> as a security researcher with interest in mobile security.</p></li>
+<li><p>Built driver tools for aiding in the automation of porting large sets of data to NoSQL.</p></li>
 </ul>
-<li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework as a Visual Studio Code extension.</strong></p></li>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/jamal">Jamal</a>.</p></li>
-</ul>
-<li><p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p></li>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
-</ul>
-<li><p><strong>A convenient tiny utility that displays remaining time from a certain CTF session.</strong></p></li>
-<ul>
-<li><p><a href="https://github.com/kaftejiman/ctf-timer">CTF Timer</a>.</p></li>
-</ul>
-</li>
-</ul>
-<p><strong>Software Engineer, Innovile Telecommunications, Izmir.</strong></p>
-<ul>
-<li><p>Built a set of benchmarks and tests to describe automating porting data sets to NoSQL.</p></li>
-</ul>
+</td>
+</tr>
