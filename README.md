@@ -91,7 +91,7 @@ understanding of systems and how they work.
     </ul>
     <li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework.</strong></p></li>
     <ul>
-        <li><p><a href="https://github.com/kaftejiman/jamal">Jamal</a>.</p></li>
+        <li><p><a href="https://marketplace.visualstudio.com/items?itemName=kaftejiman.jamal">Jamal (Microsoft Visual Studio Marketplace)</a>.</p></li>
     </ul>
     <li><p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p></li>
     <ul>
