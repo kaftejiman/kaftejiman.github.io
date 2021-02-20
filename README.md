@@ -31,7 +31,7 @@
 -   **Languages:** *Arabic* (Mother tongue), *English* (Fluent),
     *French* (Fluent) , *Turkish* (Fluent).
 
--   **Programming**: Python, JAVA, C, C\#.
+-   **Programming**: Python, Java, Javascript, NodeJS, C, C\#.
 
 -   **Visualization & Reporting :** Jupyter Notebook, LaTeX
 
@@ -88,20 +88,24 @@ understanding of systems and how they work.
     <li><p><strong>Independent Security Researcher:</strong></p></li>
     <ul>
         <li><p>Joined <a href="https://app.intigriti.com/profile/kaftejiman">Intigriti bug bounty platform</a> as a security researcher with interest in mobile security.</p></li>
+        <li><p><strong>Technologies/Keywords:</strong> #bugbounty #research #mobile-security #native #binary-analysis #cve</p></li>
     </ul>
     <li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework.</strong></p></li>
     <ul>
         <li><p><a href="https://marketplace.visualstudio.com/items?itemName=kaftejiman.jamal">Jamal (Microsoft Visual Studio Marketplace)</a>.</p></li>
+        <li><p><strong>Technologies/Keywords:</strong> #binary-analysis #reverse-engineering #android #javascript #nodejs #java #gradle #graphviz #abstract-syntax-tree #soot #java-optimization</p></li>
     </ul>
     <li><p><strong>Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
     <ul>
         <li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
+        <li><p><strong>Technologies/Keywords:</strong> #programming-language #tutorial #fun #python #antlr #lex #yacc</p></li>
     </ul>
 </ul>
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Software Engineer, <a href="https://www.innovile.com/">Innovile Telecommunications, Izmir.</a></strong></p>
 <ul>
 <li><p>Built driver tools for aiding in the automation of porting large sets of data to NoSQL.</p></li>
+<li><p><strong>Technologies/Keywords:</strong> #NoSQL #elasticsearch #oracle #odbc #C-sharp #.NET #Python #Makefile</p></li>
 </ul>
 </td>
 </tr>
