@@ -93,7 +93,7 @@ understanding of systems and how they work.
     <ul>
         <li><p><a href="https://marketplace.visualstudio.com/items?itemName=kaftejiman.jamal">Jamal (Microsoft Visual Studio Marketplace)</a>.</p></li>
     </ul>
-    <li><p><strong>Python-like Toy programming language for entry level learning compilers.</strong></p></li>
+    <li><p><strong>Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
     <ul>
         <li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
     </ul>
