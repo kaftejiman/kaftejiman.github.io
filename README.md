@@ -1,3 +1,4 @@
+<head>
 <div class="flushleft" markdown="1">
 
 # <span style="color: teal">Curriculum Vitae </span>
