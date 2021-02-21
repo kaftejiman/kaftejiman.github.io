@@ -115,7 +115,6 @@ understanding of systems and how they work.
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-51CH9WM1H5');
 </script>
 </td>
