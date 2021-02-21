@@ -109,3 +109,12 @@ understanding of systems and how they work.
 </ul>
 </td>
 </tr>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-51CH9WM1H5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-51CH9WM1H5');
+</script>
