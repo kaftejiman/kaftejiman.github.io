@@ -87,20 +87,25 @@ understanding of systems and how they work.
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Computer Security Researcher, Independent</strong></p>
 <ul>
-    <li><p><strong>Independent Security Researcher:</strong></p></li>
-    <ul>
-        <li><p>Joined <a href="https://app.intigriti.com/profile/kaftejiman">Intigriti bug bounty platform</a> as a security researcher with interest in mobile security.</p></li>
-        <li><p><strong>Technologies/Keywords:</strong> #bugbounty #research #mobile-security #native #binary-analysis #cve</p></li>
-    </ul>
-    <li><p><strong>Jamal Fast and Efficient Mobile Analysis Framework.</strong></p></li>
+    <li><p><strong>Jamal: Fast and Efficient Mobile Analysis Framework.</strong></p></li>
     <ul>
         <li><p><a href="https://marketplace.visualstudio.com/items?itemName=kaftejiman.jamal">Jamal (Microsoft Visual Studio Marketplace)</a>.</p></li>
         <li><p><strong>Technologies/Keywords:</strong> #binary-analysis #reverse-engineering #android #javascript #nodejs #java #gradle #graphviz #abstract-syntax-tree #soot #java-optimization</p></li>
     </ul>
-    <li><p><strong>Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
+    <li><p><strong>ejja: Modular Golang Obfuscator</strong></p></li>
+    <ul>
+        <li><p><a href="https://github.com/kaftejiman/ejja">ejja</a> asd </p></li>
+        <li><p><strong>Technologies/Keywords:</strong> #golang #obfuscation #reverse-engineering #native #binary-analysis #source-code #abstract-syntax-tree-analysis</p></li>
+    </ul>
+    <li><p><strong>Dawg: Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
     <ul>
         <li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
         <li><p><strong>Technologies/Keywords:</strong> #programming-language #tutorial #fun #python #antlr #lex #yacc</p></li>
+    </ul>
+    <li><p><strong>Independent Security Researcher:</strong></p></li>
+    <ul>
+        <li><p>Joined <a href="https://app.intigriti.com/profile/kaftejiman">Intigriti bug bounty platform</a> as a security researcher with interest in mobile security.</p></li>
+        <li><p><strong>Technologies/Keywords:</strong> #bugbounty #research #mobile-security #native #binary-analysis #cve</p></li>
     </ul>
 </ul>
 <tr class="odd">
