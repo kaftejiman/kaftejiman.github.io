@@ -33,7 +33,7 @@
 -   **Languages:** *Arabic* (Mother tongue), *English* (Fluent),
     *French* (Fluent) , *Turkish* (Fluent).
 
--   **Programming**: Python, Java, Javascript, NodeJS, C, C\#.
+-   **Programming**: Python, Java, Javascript, NodeJS, C, C\#, Golang.
 
 -   **Visualization & Reporting :** Jupyter Notebook, LaTeX
 
