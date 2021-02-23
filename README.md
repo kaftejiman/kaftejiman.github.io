@@ -85,7 +85,7 @@ understanding of systems and how they work.
 ------------------------------------------------------------------------
 
 <tr class="odd">
-<td style="text-align: left;"><p><strong>Computer Security Researcher, Independent</strong></p>
+<td style="text-align: left;"><p><strong>Computer Security Researcher</strong></p>
 <ul>
     <li><p><strong>Jamal: Fast and Efficient Mobile Analysis Framework.</strong></p></li>
     <ul>
@@ -94,7 +94,7 @@ understanding of systems and how they work.
     </ul>
     <li><p><strong>ejja: Modular Golang Obfuscator</strong></p></li>
     <ul>
-        <li><p><a href="https://github.com/kaftejiman/ejja">ejja</a> asd </p></li>
+        <li><p><a href="https://github.com/kaftejiman/ejja">ejja</a> (Command Line Interface binary application) </p></li>
         <li><p><strong>Technologies/Keywords:</strong> #golang #obfuscation #reverse-engineering #native #binary-analysis #source-code #abstract-syntax-tree-analysis</p></li>
     </ul>
     <li><p><strong>Dawg: Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
