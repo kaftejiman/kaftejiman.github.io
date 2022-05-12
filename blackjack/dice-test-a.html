@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Dice Test</title>
+<script type="text/javascript">
+  for (var i = 1; i <= 6; i++) {  // preload all images
+     var img = new Image();
+     img.src = "dice-images/" + i + ".gif";
+  }
+  var diceInfo = null; // stores the elements needed to roll the dice
+  function startRoll() {
+     if (!diceInfo) {
+        diceInfo = {}; 
+        diceInfo.dice = document.getElementById("dice");
+        diceInfo.d1 = document.getElementById("d1");
+        diceInfo.d2 = document.getElementById("d2");
+        diceInfo.total = document.getElementById("total");
+     }
+     diceInfo.dice.style.backgroundColor = "#DFF";
+     diceInfo.whichDie = 1;
+     diceInfo.rolls = 0;
+     diceInfo.timer = setInterval(roll,30);
+     diceInfo.total.style.visibility = "hidden";
+  }
+  function endRoll() {
+     clearInterval(diceInfo.timer);
+     diceInfo.dice.style.backgroundColor = "#DDF";
+     diceInfo.timer = null;
+     diceInfo.total.innerHTML = diceInfo.d1.numberShowing + diceInfo.d2.numberShowing;
+     diceInfo.total.style.visibility = "visible";
+  }
+  function roll() {
+    var num = Math.floor(6*Math.random()) + 1;
+    var imageSrc = "dice-images/" + num + ".gif";
+    var die = diceInfo.whichDie == 1 ? diceInfo.d1 : diceInfo.d2;
+    die.numberShowing = num;
+    die.src = imageSrc;
+    diceInfo.whichDie = diceInfo.whichDie == 1 ? 2 : 1;
+    diceInfo.rolls++;
+    if (diceInfo.rolls >= 20)
+       endRoll();
+  }
+</script>
+<style type="text/css">
+#dice {
+  position: relative;
+  width: 120px;
+  height:120px;
+  padding: 20px;
+  margin-left:20px;
+  border: thick solid blue;
+  background-color: #DDF;
+}
+#d1, #d2, #total {
+   position: absolute;
+}
+#d1 {
+   left: 20px;
+   top: 20px;
+}
+#d2 {
+   bottom: 20px;
+   right: 20px;
+}
+#total {
+   left: 20px;
+   bottom: 20px;
+   font-size: 40px;
+   color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Dice Test<br>Click Dice to Roll</h1>
+
+<div id="dice" onclick="startRoll()">
+   <img id="d1" src="dice-images/3.gif" width=60 height=60>
+   <img id="d2" src="dice-images/4.gif" width=60 height=60>
+   <div id="total">7</div>
+</div>
+
+</body>
+</html>
+

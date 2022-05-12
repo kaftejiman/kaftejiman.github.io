@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Pop-in Test</title>
+<script type="text/javascript">
+   var limit = 500;  // max value for left/top of popup.
+   function showPopup() {
+      var pop = document.getElementById("pop");
+      if (pop.style.display == "none") {
+         pop.style.position = "absolute";
+         pop.style.left = "10px";
+         pop.style.top = "10px";
+         pop.style.display = "block";
+         var timer = setInterval(movePopup,20);
+         pop.timer = timer;  // cache these values in the element
+         pop.offsetX = 10;   //   instead of global variables!
+         pop.offsetY = 10;
+      }
+   }
+   function hidePopup() {
+      var pop = document.getElementById("pop");
+      pop.style.display = "none";
+      clearInterval(pop.timer);
+   }
+   function movePopup() {
+      var pop = document.getElementById("pop");
+      pop.offsetX += 3;
+      if (pop.offsetX > limit)
+         pop.offsetX = 0;
+      pop.offsetY += 2;
+      if (pop.offsetY > limit)
+         pop.offsetY = 0;
+      pop.style.left = pop.offsetX + "px";
+      pop.style.top = (pop.offsetY) + "px";
+   }
+</script>
+<style>
+h1:hover {
+  color: red;
+}
+#pop {
+  width: 250px;
+  height: 120px;
+  border: thick solid blue;
+  background-color: #FFD;
+}
+#pop p {
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+<h1 onclick="showPopup()">Click Me!</h1>
+<div id="pop" style="display: none" onmousedown="hidePopup()">
+  <p>This is a stupid popup!<br><br>Click to close.</p>
+</div>
+</body>
+</html>
+

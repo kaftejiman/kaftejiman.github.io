@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Scriptaculous Demo</title>
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js"></script>
+
+<script type="text/javascript">
+
+/**
+ * When the documented is loaded, create an Ajax.Autcompleter for the input box with
+ * name 'autocomplete.'  The request goes to the url '/eck/ziplist.php', which returns a
+ * list of completions in the form of a <ul> list.  This html page must be on the same
+ * server for this request to succeed
+ */
+onload = function() {
+   new Ajax.Autocompleter("autocomplete", "autocomplete_choices", "/eck/ziplist.php", {minChars:2});
+};
+
+
+/**
+ *  This function fades out the current content of the div with id 'message', replaces
+ *  it with newMessage, then fades the new message in.  newMessage can be HTML.
+ */
+function changeMessage(newMessage) {
+      new Effect.Fade('message', {
+          duration: 0.3,
+          queue: 'end',
+          afterFinish: function() {
+             $('message').innerHTML = newMessage;
+             new Effect.Appear('message', {
+                duration: 0.3,
+                queue: 'end'
+             });
+          }
+      }); 
+}
+
+
+/**
+ * Shows a animation in the voting table of 5 bars growing to represent the vote
+ * totals for various options.  (Data is completely made up.)
+ */
+function vote(option) {
+   var bar = [0, 35, 28, 43, 18, 5];  // value 0 is not used
+   bar[option]++;  // count the vote!
+   for (var i = 1; i <= 5; i++)
+      $('op' + i).innerHTML="<img src='gold-1x30.gif' align=center width=1 height=30 id='img" + i + "'>";
+   new Effect.Parallel([
+       new Effect.Morph('img1', { sync:'yes', style:'width:' + 10*bar[1] + 'px' }),
+       new Effect.Morph('img2', { sync:'yes', style:'width:' + 10*bar[2] + 'px' }),
+       new Effect.Morph('img3', { sync:'yes', style:'width:' + 10*bar[3] + 'px' }),
+       new Effect.Morph('img4', { sync:'yes', style:'width:' + 10*bar[4] + 'px' }),
+       new Effect.Morph('img5', { sync:'yes', style:'width:' + 10*bar[5] + 'px' })
+   ], {
+       duration: 2,
+       afterFinish: function() {
+           for (var i = 1; i <= 5; i++) {
+              var txt = document.createElement('b');
+              txt.innerHTML = bar[i] + " people";
+              $('op' + i).appendChild(txt);
+           }
+       }
+   });
+}
+
+/**
+ * This function is called when the user clicks the button in the form.  It responds by simulating
+ * a long processing delay, using a timer.
+ */
+function compute() {
+   if (!$F('x') || !$F('y'))
+      changeMessage("<i style='color:red'>Error:  Values must be provided for x and y.</i>");
+   else {
+      $('bttn').disabled = true;
+      changeMessage("<i style='color:blue'>Processing.  Please wait...</i>");
+      setTimeout(function() {
+          var x = Number($F('x'));
+          var y = Number($F('y'));
+          if (isNaN(x) || isNaN(y))
+              changeMessage("<i style='color:red'>Error: x and y must be numbers!</a>");
+          else 
+              changeMessage("<i style='color:#090'>Answer: " + x + " + " + y + " = " + (x+y));
+          $('bttn').disabled = false;
+      }, 2000);
+   }
+}
+</script>
+
+<style type="text/css">
+/* styles for the autocompleter */
+div.autocomplete {
+  position:absolute;
+  width:250px;
+  font-size: 80%;
+  background-color:white;
+  border:1px solid #888;
+  margin:0;
+  padding:0;
+}
+div.autocomplete ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  cursor:pointer;
+}
+
+a {
+   white-space:pre;
+}
+</style>
+</head>
+
+<body style="max-width: 650px;">
+
+<h3>Autocompleter Demo</h3>
+
+<input type="text" id="autocomplete" name="zip"/>
+<div id="autocomplete_choices" class="autocomplete"></div>
+
+<p>This is an example of the "Ajax.Autocompleter" class in <a href="http://script.aculo.us">Scriptaculous</a>.
+
+<p>If you type the first few characters of a city name into the input box above,
+a list of possible completions will appear.  You can use the up/down arrow keys
+to select one of the options in the list, then press return.  The zip code will
+be entered into the box.  If you type one or more characters of a zip code into
+the box, the same thing will happen -- again, only the zip code will be entered
+in the end.</p>
+
+<p>This example works with the url http://math.hws.edu/eck/ziplist.php, which returns
+a list of cities and zip codes that match a parameter named "zip".  You can access it
+directly as, for example, <a href="http://math.hws.edu/eck/ziplist.php?zip=gen">http://math.hws.edu/eck/ziplist.php?zip=gen</a>.
+
+<h3>Simple Animation Demo</h3>
+
+<p>Here is a solution to the first exercise in <a href="lab2.html">Lab 2</a>, with some added
+Scriptaculous animation to make the messages to the user fade in and out.  Note the use
+of "queue: end" (in the source code for this page) to make sure that animations don't overlap.</p>
+
+<form name="math">
+<p>x = <input type="text" name="x" id="x">  <!-- id's added to input boxes for use with prototypes $F function -->
+<p>y = <input type="text" name="y" id="y">
+<p><input type="button" id="bttn" value="Compute!" onclick="compute()"></p>
+<div style="height:30px"><p  id="message" >&nbsp;</p></div>
+</form>
+
+<h3>Parallel Animation Demo</h3>
+
+<p>Here is a solution to the second exercise in <a href="lab2.html">Lab 2</a>.  It uses
+a Scriptaculous "Effect.Parallel" to grow all the bars at the same time.</p>
+
+<table cellpadding=0 cellspacing=5 border=0 style="margin-left:1cm">
+<tr><th colspan=2 align=left><b><big>What is your favorite color?</big></b></th></td>
+<tr valign=center style="height:38px">
+   <td align=right width=100>Red:</td>
+   <td align=left width=800 id="op1"><input type=radio name=radio onclick='vote(1)'></td>
+</tr>
+<tr valign=center style="height:38px">
+   <td align=right>Green:</td>
+   <td align=left id="op2"><input type=radio name=radio onclick='vote(2)'></td>
+</tr>
+<tr valign=center style="height:38px">
+   <td align=right>Blue:</td>
+   <td align=left id="op3"><input type=radio name=radio onclick='vote(3)'></td>
+</tr>
+<tr valign=center style="height:38px">
+   <td align=right>Yellow:</td>
+   <td align=left id="op4"><input type=radio name=radio onclick='vote(4)'></td>
+</tr>
+<tr valign=center style="height:38px">
+   <td align=right>Black:</td>
+   <td align=left id="op5"><input type=radio name=radio onclick='vote(5)'></td>
+</tr>
+<table>
+
+</body>
+</html>
+

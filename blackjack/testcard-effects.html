@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>image test</title>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js"></script>
+<script type="text/javascript" src="Card.js"></script>
+<script type="text/javascript" src="DisplayedCard.js"></script>
+</head>
+<body bgcolor="#339933">
+
+<h1>Random Card!!!</h1>
+
+
+<script type="text/javascript">
+   var theCard;
+   function randomCard() {
+      var suit = 1 + Math.floor(4*Math.random());
+      var value = 1 + Math.floor(13*Math.random());
+      theCard.setCard(new Card(value,suit));
+      theCard.setFaceUp();
+      document.getElementById("cardName").innerHTML = theCard.card.toString();
+   }
+   var running;
+   function changeCard() {
+      if (running || !theCard)
+         return;
+      running = true;
+      new Effect.BlindUp(theCard.cardContainer, {
+             afterFinish: randomCard,
+             duration: 0.3,
+             queue: "end"
+         });
+      new Effect.BlindDown(theCard.cardContainer, {
+             afterFinish: function() { running = false; },
+             duration: 0.3,
+             queue: "end"
+         });
+   }
+   onload = function() { theCard = new DisplayedCard("theCard") }
+</script>
+
+<div id="theCard"></div>
+
+<p><input type="button" value="Deal" onclick="changeCard()"></p>
+
+<p id="cardName"></p>
+
+</div>
+
+</body>

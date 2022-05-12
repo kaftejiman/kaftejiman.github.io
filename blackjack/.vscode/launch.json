@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open game.html",
+            "file": "c:\\data\\presentations\\cracking-blackjack\\Blackjack.html"
+        },
+        {
+            "type": "pwa-msedge",
+            "request": "attach",
+            "name": "Attach to browser",
+            "port": 9222
+        },
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}",
+            "pythonArgs": [
+                "xx.py",
+                "0.5032743991933397,0.7894786594181269,0.016018779580358133"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

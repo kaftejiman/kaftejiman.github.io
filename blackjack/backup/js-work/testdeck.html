@@ -1,0 +1,14 @@
+<html>
+<head>
+<script type="text/javascript" src="Card.js">
+
+</script>
+</head>
+<body>
+<script>
+   var d = new Deck();
+   d.shuffle();
+   while (d.count > 0)
+      document.write(d.nextCard() + "<br>");
+</script>
+</body>
