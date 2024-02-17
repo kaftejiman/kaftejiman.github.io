@@ -19,10 +19,10 @@
 |                                                           |                                  |     |
 | :-------------------------------------------------------: | :------------------------------- | --- |
 | <img src="assets/github.png" height="25px" width="25px">  | <https://twitter.com/kaftejiman> |     |
-| <img src="assets/pasted9.png" height="25px" width="25px"> | Hatay, Izmir, Turkey.            |     |
+| <img src="assets/pasted9.png" height="25px" width="25px"> | Den Haag, Netherlands.           |     |
 | <img src="assets/pasted8.png" height="25px" width="25px"> | kaftejiman protonmail .ch        |     |
-| <img src="assets/pasted6.png" height="25px" width="25px"> | +90 0 - - - -                    |     |
-| <img src="assets/pasted5.png" height="25px" width="25px"> | -.-.1991                         |     |
+<!-- | <img src="assets/pasted6.png" height="25px" width="25px"> | +90 0 - - - -                    |     | -->
+<!-- | <img src="assets/pasted5.png" height="25px" width="25px"> | -.-.1991                         |     | -->
 | <img src="assets/pasted7.png" height="25px" width="25px"> | Tunisian                         |     |
 
 
@@ -31,7 +31,7 @@
 ------------------------------------------------------------------------
 
 -   **Languages:** *Arabic* (Mother tongue), *English* (Fluent),
-    *French* (Fluent) , *Turkish* (Fluent).
+    *French* (Good) , *Turkish* (Fluent).
 
 -   **Programming**: Python, Java, Javascript, NodeJS, C, C\#, Golang.
 
@@ -72,7 +72,7 @@
 # <span style="color: teal">Resume:</span>
 
 I am a Software Engineer and a Computer Security Researcher with a
-strong educational background in Math and Electronics. I have been an
+strong educational background in Maths and Electronics. I have been an
 active CTF Player, my interests are in finding solutions to complex
 challenges through advanced analytics. My skills-set covers reverse
 engineering through carrying static and dynamic analysis and automated
