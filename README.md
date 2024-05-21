@@ -20,8 +20,6 @@
 | :-------------------------------------------------------: | :------------------------------- | --- |
 | <img src="assets/github.png" height="25px" width="25px">  | <https://twitter.com/kaftejiman> |     |
 | <img src="assets/pasted9.png" height="25px" width="25px"> | Den Haag, Netherlands.           |     |
-<!-- | <img src="assets/pasted8.png" height="25px" width="25px"> | kaftejiman protonmail .ch        |     | -->
-<!-- | <img src="assets/pasted7.png" height="25px" width="25px"> | Tunisian                         |     | -->
 
 
 # <span style="color: teal">Skills :</span>
