@@ -13,7 +13,7 @@
 </p> -->
 <div class="flushleft" markdown="1">
 
-**Mohamed Amine, AMOR**
+**Mohamed AMOR**
 </div>
 
 |                                                           |                                  |     |
