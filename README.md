@@ -7,10 +7,10 @@
 </div>
 
 ------------------------------------------------------------------------
-
+<!-- 
 <p>
   <img src="assets/cv_funny.png"/> 
-</p>
+</p> -->
 <div class="flushleft" markdown="1">
 
 **Mohamed Amine, AMOR**
@@ -20,8 +20,8 @@
 | :-------------------------------------------------------: | :------------------------------- | --- |
 | <img src="assets/github.png" height="25px" width="25px">  | <https://twitter.com/kaftejiman> |     |
 | <img src="assets/pasted9.png" height="25px" width="25px"> | Den Haag, Netherlands.           |     |
-| <img src="assets/pasted8.png" height="25px" width="25px"> | kaftejiman protonmail .ch        |     |
-| <img src="assets/pasted7.png" height="25px" width="25px"> | Tunisian                         |     |
+<!-- | <img src="assets/pasted8.png" height="25px" width="25px"> | kaftejiman protonmail .ch        |     | -->
+<!-- | <img src="assets/pasted7.png" height="25px" width="25px"> | Tunisian                         |     | -->
 
 
 # <span style="color: teal">Skills :</span>
@@ -74,9 +74,7 @@ strong educational background in Maths and Electronics. I have been an
 active CTF Player, my interests are in finding solutions to complex
 challenges through advanced analytics. My skills-set covers reverse
 engineering through carrying static and dynamic analysis and automated
-binary analysis with increasing interest in mobile security and
-simulating custom architectures. My aim is to simply increase my
-understanding of systems and how they work.
+binary analysis with increasing interest in mobile security. My aim is to  learn more about the internal dynamics of systems.
 
 # <span style="color: teal">Work Experiences:</span>
 
@@ -85,7 +83,7 @@ understanding of systems and how they work.
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Computer Security Researcher</strong></p>
 <ul>
-    <li><p><strong>Jamal: Fast and Efficient Mobile Analysis Framework.</strong></p></li>
+    <li><p><strong>Jamal: Fast and Efficient Mobile Binary Analysis Framework.</strong></p></li>
     <ul>
         <li><p><a href="https://marketplace.visualstudio.com/items?itemName=kaftejiman.jamal">Jamal (Microsoft Visual Studio Marketplace)</a>.</p></li>
         <li><p><strong>Technologies/Keywords:</strong> #binary-analysis #reverse-engineering #android #javascript #nodejs #java #gradle #graphviz #abstract-syntax-tree #soot #java-optimization</p></li>
@@ -95,11 +93,11 @@ understanding of systems and how they work.
         <li><p><a href="https://github.com/kaftejiman/ejja">ejja</a> (Command Line Interface binary application) </p></li>
         <li><p><strong>Technologies/Keywords:</strong> #golang #obfuscation #reverse-engineering #native #binary-analysis #source-code #abstract-syntax-tree-analysis</p></li>
     </ul>
-    <li><p><strong>Dawg: Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
+    <!-- <li><p><strong>Dawg: Toy Programming Language that translates to Python for entry level learning compilers.</strong></p></li>
     <ul>
         <li><p><a href="https://github.com/kaftejiman/dawg">Dawg</a>.</p></li>
-        <li><p><strong>Technologies/Keywords:</strong> #programming-language #tutorial #fun #python #antlr #lex #yacc</p></li>
-    </ul>
+        <li><p><strong>Technologies/Keywords:</strong> #programming-language #tutorial #fun #python #antlr #lex #yacc</p></li> -->
+    <!-- </ul> -->
     <li><p><strong>Independent Security Researcher:</strong></p></li>
     <ul>
         <li><p>Joined <a href="https://app.intigriti.com/profile/kaftejiman">Intigriti bug bounty platform</a> as a security researcher with interest in mobile security.</p></li>
@@ -109,8 +107,8 @@ understanding of systems and how they work.
 <tr class="odd">
 <td style="text-align: left;"><p><strong>Software Engineer, <a href="https://www.innovile.com/">Innovile Telecommunications, Izmir.</a></strong></p>
 <ul>
-<li><p>Built driver tools for aiding in the automation of porting large sets of data to NoSQL.</p></li>
-<li><p><strong>Technologies/Keywords:</strong> #NoSQL #elasticsearch #oracle #odbc #C-sharp #.NET #Python #Makefile</p></li>
+<li><p>Automation tools for internal large data migration/refactoring.</p></li>
+<li><p><strong>Technologies/Keywords:</strong> #NoSQL #elasticsearch #oracle #odbc #C-sharp #.NET #Python</p></li>
 </ul>
 </td>
 </tr>
